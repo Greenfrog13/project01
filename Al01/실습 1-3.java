@@ -8,4 +8,11 @@ class JudgeSign {
 		System.out.print("정수르 입력하세요.:");
 		int n = stdIn.nextInt();
 		
-		
+		if (n>0)
+			System.out.println("이 수는 양수입니다.");
+		else if (n<0)
+			System.out.println("이 수느 음수입니다.");
+		else
+			System.out.println("이 수느 0입니다.");
+	}
+}
